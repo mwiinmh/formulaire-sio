@@ -71,6 +71,7 @@ form{
         cursor: pointer;
         margin: auto;
         padding: 1 4rem;
+        box-shadow: none;
     
     }
 }
