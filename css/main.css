@@ -37,12 +37,17 @@ fieldset{
 form{
     input{
         display: block;
-        border: solid .1rem #ccc;
+        border: solid .1rem transparent;
         padding: 1rem;
         width: 100%;
         margin: 1rem 0;
         line-height: 3rem;
         transition: all .6s ease-in-out;
+        border-bottom-color: #ccc;
+    }
+
+    [placeholder]{
+        background-color: #f8f3f3;
     }
 
     input:focus{
@@ -60,6 +65,8 @@ form{
         font-size: 1.4rem;
         margin-bottom: 0;
         cursor: pointer;
+        margin: auto;
+        padding: 1 4rem;
     
     }
 }
